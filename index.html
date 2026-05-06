@@ -6,20 +6,18 @@
     <title>Taste Corner Restaurant – Abuja</title>
     <script src="https://cdn.tailwindcss.com/3.4.17"></script>
     <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
-   <link
-  href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
-  rel="stylesheet"
-/>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <script>
       tailwind.config = {
         theme: {
           extend: {
             colors: {
-              dark: '#050509',
-              deep: '#0b1120',
+              dark: '#020617',
+              deep: '#020617',
               accent: '#f97316',
               accentSoft: '#f9731618',
               surface: '#020617',
-              textMain: '#f9fafb'
+              textMain: '#e5e7eb'
             },
             fontFamily: {
               outfit: ['Outfit', 'sans-serif']
@@ -97,7 +95,7 @@
           <h1 class="text-3xl md:text-5xl font-bold mb-4 leading-tight">
             Taste Corner Restaurant – simple, tasty meals served fresh.
           </h1>
-          <p class="text-gray-200 mb-6 text-sm md:text-lg">
+          <p class="text-gray-100 mb-6 text-sm md:text-lg">
             This demo shows how a small restaurant or food spot in Abuja can present its menu, photos and contact details online in a clean, mobile‑friendly way.
           </p>
           <div class="flex flex-wrap gap-3">
@@ -115,15 +113,15 @@
     </section>
 
     <!-- ABOUT -->
-    <section id="about" class="py-16 bg-dark">
+    <section id="about" class="py-16 bg-surface">
       <div class="max-w-6xl mx-auto px-4 md:px-6 grid md:grid-cols-3 gap-10 items-start">
         <div class="md:col-span-2">
           <h2 class="text-2xl md:text-3xl font-bold mb-3">About Taste Corner (Demo)</h2>
           <div class="w-14 h-1 bg-accent rounded mb-5"></div>
-          <p class="text-gray-200 mb-4 text-sm md:text-base">
+          <p class="text-gray-100 mb-4 text-sm md:text-base">
             Taste Corner Restaurant is a demo brand built by Mascott (MasTECH Innovations) to show how a small restaurant in Abuja can look online. The layout is perfect for jollof rice, grills, shawarma, soups and small chops businesses that want to appear more professional.
           </p>
-          <p class="text-gray-400 text-xs md:text-sm">
+          <p class="text-gray-300 text-xs md:text-sm">
             The idea is simple: give customers a quick view of what you serve, show mouth‑watering pictures, and make it extremely easy for them to call, WhatsApp or visit your location without stress.
           </p>
         </div>
@@ -132,33 +130,33 @@
             <div class="w-8 h-8 rounded-full bg-accentSoft flex items-center justify-center">
               <i data-lucide="smartphone" style="width:16px;height:16px" class="text-accent"></i>
             </div>
-            <p class="text-gray-300">Mobile‑first design for customers ordering from their phones.</p>
+            <p class="text-gray-200">Mobile‑first design for customers ordering from their phones.</p>
           </div>
           <div class="flex items-center gap-3">
             <div class="w-8 h-8 rounded-full bg-accentSoft flex items-center justify-center">
               <i data-lucide="shopping-bag" style="width:16px;height:16px" class="text-accent"></i>
             </div>
-            <p class="text-gray-300">Sections focused on orders, not just “nice design”.</p>
+            <p class="text-gray-200">Sections focused on orders, not just “nice design”.</p>
           </div>
           <div class="flex items-center gap-3">
             <div class="w-8 h-8 rounded-full bg-accentSoft flex items-center justify-center">
               <i data-lucide="edit-3" style="width:16px;height:16px" class="text-accent"></i>
             </div>
-            <p class="text-gray-300">Easy to adjust colors, fonts and menu items to match any real restaurant.</p>
+            <p class="text-gray-200">Easy to adjust colors, fonts and menu items to match any real restaurant.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- MENU (different style: cards by category) -->
+    <!-- MENU -->
     <section id="menu" class="py-16 bg-surface">
       <div class="max-w-6xl mx-auto px-4 md:px-6">
         <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-8">
           <div>
             <h2 class="text-2xl md:text-3xl font-bold mb-2">Sample Menu</h2>
             <div class="w-14 h-1 bg-accent rounded mb-3"></div>
-            <p class="text-gray-300 text-xs md:text-sm">
-              Example menu structure grouped by category. In a real project, this would use your exact dishes and prices.
+            <p class="text-gray-200 text-xs md:text-sm">
+              A simple menu structure grouped by category. In a real project, this would use your exact dishes and prices.
             </p>
           </div>
           <div class="flex flex-wrap gap-2 text-[11px] md:text-xs text-gray-200">
@@ -241,14 +239,14 @@
       </div>
     </section>
 
-    <!-- GALLERY (different style vs real estate) -->
-    <section id="gallery" class="py-16 bg-deep">
+    <!-- GALLERY -->
+    <section id="gallery" class="py-16 bg-surface">
       <div class="max-w-6xl mx-auto px-4 md:px-6">
         <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-8">
           <div>
             <h2 class="text-2xl md:text-3xl font-bold mb-2">Food &amp; Space Gallery</h2>
             <div class="w-14 h-1 bg-accent rounded mb-3"></div>
-            <p class="text-gray-300 text-xs md:text-sm">
+            <p class="text-gray-200 text-xs md:text-sm">
               Sample images to show how you can highlight your meals and restaurant interior.
             </p>
           </div>
@@ -278,7 +276,7 @@
           </div>
           <div class="h-40 md:h-48 rounded-2xl bg-dark border border-accent/40 p-4 flex flex-col justify-center">
             <p class="text-xs text-orange-300 mb-1 uppercase tracking-wide">Tip for real projects</p>
-            <p class="text-xs md:text-sm text-gray-200">
+            <p class="text-xs md:text-sm text-gray-100">
               Replace these stock photos with your actual food and interior shots to build more trust and appetite.
             </p>
           </div>
@@ -292,7 +290,7 @@
         <div class="text-center mb-8">
           <h2 class="text-2xl md:text-3xl font-bold mb-2">Visit or Place an Order (Demo)</h2>
           <div class="w-14 h-1 bg-accent rounded mb-4 mx-auto"></div>
-          <p class="text-gray-200 mb-4 text-xs md:text-sm">
+          <p class="text-gray-100 mb-4 text-xs md:text-sm">
             This is a demo site for Taste Corner Restaurant. In a real setup, this section would connect directly to your phone, WhatsApp and map location.
           </p>
         </div>
@@ -300,17 +298,17 @@
         <div class="grid md:grid-cols-3 gap-6 text-xs md:text-sm mb-8">
           <div class="border border-white/10 rounded-xl p-4 bg-dark text-center">
             <i data-lucide="phone" style="width:22px;height:22px" class="mx-auto mb-2 text-accent"></i>
-            <p class="text-gray-400 mb-1">Call / WhatsApp</p>
+            <p class="text-gray-300 mb-1">Call / WhatsApp</p>
             <p class="text-orange-300 font-medium">+234 000 000 0000</p>
           </div>
           <div class="border border-white/10 rounded-xl p-4 bg-dark text-center">
             <i data-lucide="map-pin" style="width:22px;height:22px" class="mx-auto mb-2 text-accent"></i>
-            <p class="text-gray-400 mb-1">Sample Location</p>
+            <p class="text-gray-300 mb-1">Sample Location</p>
             <p class="text-orange-300 font-medium">Wuse / Garki, Abuja</p>
           </div>
           <div class="border border-white/10 rounded-xl p-4 bg-dark text-center">
             <i data-lucide="clock" style="width:22px;height:22px" class="mx-auto mb-2 text-accent"></i>
-            <p class="text-gray-400 mb-1">Opening Hours</p>
+            <p class="text-gray-300 mb-1">Opening Hours</p>
             <p class="text-orange-300 font-medium">Mon–Sat: 9am – 10pm</p>
           </div>
         </div>
@@ -324,7 +322,7 @@
       </div>
     </section>
 
-    <footer class="py-6 bg-dark border-t border-white/10">
+    <footer class="py-6 bg-surface border-t border-white/10">
       <div class="max-w-6xl mx-auto px-4 md:px-6 text-center text-[11px] text-gray-500">
         Taste Corner Restaurant is a demo website layout for small restaurants in Abuja, created by Mascott / MasTECH Innovations.
       </div>
